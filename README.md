@@ -9,14 +9,13 @@ $pip install -r requirements.txt
 
 # Main Code:The folder code_machine_learning contains code for our machine learning model to generate the reconstructed edge sequence of a given network.
 
-# The folder code_link_prediction contains code for link prediction task with and without the restored edge sequence.
+The folder code_link_prediction contains code for link prediction task with and without the restored edge sequence.
 
-# The folder network_data contains 17 real-world networks we used in this paper. Each line of the network data represents "source target snapshot"
+The folder network_data contains 17 real-world networks we used in this paper. Each line of the network data represents "source target snapshot"
 
-# The folder source_data contains data for figures in the main text of our paper.
+The folder result_data contains data for figures in the main text of our paper.
 
-## Introduction of code_machine_learning
-# Main Code  :
+# Main Code of the folder code_machine_learning:
  "_ShowModelAuc.py " provides the accuracy of the machine learning algorithm to predict generation order of edge pairs，including different methods such as best feature, collection feature, deepwalk, node2vec, line, struct2vec, sdne, ensemble；
  "_ShowBaseModelAuc_.py " provides the accuracy of CPNN model with 11 single edge index;
  "_ShowEdgeSort.py " provides edge restoration results on real-world networks，including a comparison of Borda Count and Simulated Annealing；
