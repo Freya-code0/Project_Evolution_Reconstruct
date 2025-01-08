@@ -7,7 +7,7 @@ In order to run the following code please in your terminal (preferably in a cond
 
 $pip install -r requirements.txt
 
-# Main Code:The folder code_machine_learning contains code for our machine learning model to generate the reconstructed edge sequence of a given network.
+Main Code:The folder code_machine_learning contains code for our machine learning model to generate the reconstructed edge sequence of a given network.
 
 The folder code_link_prediction contains code for link prediction task with and without the restored edge sequence.
 
